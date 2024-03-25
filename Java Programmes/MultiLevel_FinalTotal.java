@@ -1,0 +1,51 @@
+class Students 
+{
+	private int sno;
+	private String sname;
+	public void setStudent(int no, String name)
+	{
+		sno = no;
+		sname = name;
+	}
+	public void putStudent()
+	{
+		System.out.println("Student No : " +sno);
+		System.out.println("Student Name : " +sname);
+	}
+}
+class Marks extends Students
+{
+	protected int mark1,mark2;
+	public void setMarks(int m1,int m2)
+	{
+		mark1 = m1;
+		mark2 = m2;
+	}
+	public void putMarks()
+	{
+		System.out.println("Mark1 : " +mark1);
+		System.out.println("Mark2 : " +mark2);
+	}
+}
+class MultiLevel_FinalTotal extends Marks
+{
+	private int total;
+	public void calc()
+	{
+		total = mark1 + mark2;
+	}
+	public void putTotal()
+	{
+		System.out.println("Total :" +total);
+	}
+	public static void main(String[] args) 
+	{
+		MultiLevel_FinalTotal f = new MultiLevel_FinalTotal();
+		f.setStudent(100,"Nithya");
+		f.setMarks(78,89);
+		f.calc();
+		f.putStudent();
+		f.putMarks();
+		f.putTotal();
+	}
+}

@@ -1,0 +1,10 @@
+s1="Praneeth\n"
+s2="MVSREC\n"
+print(s1*2)
+print(s2*4)
+n1=4
+r1=(n1**0.05)
+print(r1)
+n2=2
+r2=(n2**2)
+print(r2)

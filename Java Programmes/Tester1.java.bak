@@ -1,0 +1,25 @@
+class Tester1
+{
+	int i=10;
+	static int j=20;
+	void methodOne()
+	{
+		System.out.println("i="+i);
+		System.out.println("j="+j);
+	}
+	static void methodTwo()
+	{
+		Tester t=new Tester1();
+		System.out.printn("i="+t.i);
+		System.out.println("j="+j);
+	}
+}
+public class Test
+{
+	public static void main(String[] a)
+	{
+		Tester t=new Tester1();
+		t.methodOne();
+		Tester.methodTwo();
+	}
+}

@@ -1,0 +1,39 @@
+abstract class Figure
+{
+	int d1,d2;
+	abstract void area();
+}
+class Rectangle extends Figure
+{
+	Rectangle(int a,int b)
+	{
+		d1=a;
+		d2=b;
+}
+void area()
+	{
+		System.out.println("Area of rectangle is" +d1 * d2);
+	}
+}
+class Square extends Figure
+{
+	Square(int c)
+	{
+		d1 = d2 = c;
+	}
+	void area()
+	{
+		System.out.println("Area of Square is" +d1 * d2);
+	}
+}
+class AbstractDemo
+{
+	public static void main(String c[])
+	{
+		Rectangle r1 = new Rectangle(2,3);
+		r1.area();
+		Square s1 = new Square(4);
+		s1.area();
+	}
+}
+
