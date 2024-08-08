@@ -1,0 +1,23 @@
+section{
+    font-size: 10px;
+}
+
+#one{
+    font-size: 2em;
+}
+
+#two{
+    font-size: 20px;
+}
+
+html{
+    font-size: 5px;
+}
+
+#one{
+    font-size: 5px;
+}
+
+#two{
+    font-size: 25px;
+}

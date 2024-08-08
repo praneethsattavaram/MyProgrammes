@@ -1,0 +1,28 @@
+h1{
+    color: red;
+}
+
+#top{
+    color: blue;
+}
+
+.srileela{
+    color: aqua;
+}
+
+.anushka{
+    background-color: darkgrey;
+}
+
+#nibbi{
+    color: green;
+}
+
+#top,.srileela{
+    background-color: lightsalmon;
+}
+
+*{
+    color: white;
+    background-color: black;
+}

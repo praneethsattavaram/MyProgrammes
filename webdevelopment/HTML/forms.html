@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <!--<form>
+        <fieldset>
+            <legend>SIGN UP FORM</legend>
+            <label for="name">Name : </label>
+            <input id = "name" type="text">
+            <br><br>
+            <label for = "email">Email : </label>
+            <input id = "email" type="email">
+            <br><br>
+            <label for = "password">Password : </label>
+            <input id = "password" type="password">
+            <br><br>
+            <button>REGISTER</button>
+        </fieldset>
+    </form>-->
+
+    <br><br><br>
+
+    <form autocomplete="on" novalidate>
+        <fieldset>
+            <legend>REGISTER FORM</legend>
+            <label for = "name">Name : </label>
+            <input id = "name" type = "text" required placeholder="Enter Your Name" autofocus/>
+            <br><br>
+            <label for = "email">Email : </label>
+            <input id = "email" type="email" required placeholder="Enter Your mail id" value="praneeth@gmail.com" readonly>
+            <br><br>
+            <label for = "password">Password : </label>
+            <input id = "password" type="password" required placeholder="Enter Your Password">
+            <br><br>
+            <label for = "mobile">Ph.No : </label>
+            <input id = "mobile" type = "tel"required placeholder="Enter Your Mobile no" maxlength="10" disabled>
+            <br><br>
+            <label for = "date">DOB : </label>
+            <input id = "date" type = "datetime-local">
+            <br><br>
+            <!-- gender -->
+            <label for = "gender"> Gender : </label>
+            <input id = "male" type="radio" name = "gender" value = "male" checked>
+            <label for = "male"> Male </label>
+            <input type = "radio" id = "female" name = "gender" value = "female"/>
+            <label for = "female"> Female </label>
+            <input type = "radio" id = "others" name = "gender" value = "others" disabled/>
+            <label for = "others"> Others </label>
+            <br><br>
+            <!-- skills -->
+            <label for = "skills"> Skills : </label>
+            <input type = "checkbox" id = "html" name = "skills" value = "html" checked/>
+            <label for = "html"> HTML </label>
+            <input type = "checkbox" id = "css" name = "skills" value = "css"/>
+            <label for = "css"> CSS </label>
+            <input type = "checkbox" id = "js" name = "skills" value = "js"/>
+            <label for = "js"> JAVASCRIPT </label>
+            <input type = "checkbox" id ="react" name = "skills" value = "react"/>
+            <label for = "react"> REACT JS</label>
+            <br><br>
+            <!-- select country-->
+            <label for = "country"> Country: </label>
+            <select>
+                <option>--SELECT COUNTRY--</option>
+                <option>INDIA</option>
+                <option>RUSSIA</option>
+                <option>BRAZIL</option>
+            </select>
+            <br><br>
+            <!-- feedback -->
+            <label for = "feedback"> Feedback: </label>
+            <textarea cols="30" rows="10"></textarea>
+            <br><br>
+            <label for = "upload"> Upload: </label>
+            <input type = "file">
+            <br><br>
+            <!--<button>REGISTER</button>-->
+            <input type = "submit" value = "REGISTER">
+            <input type = "RESET">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+
+div{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    /* transform: translateX(600px);
+    transform: translateY(200px);
+    transform: translate(600px,200px);
+    transform: translate(600px); */
+    translate: 600px 200px;
+    /* translate: 5px 280px; my own line for adjustment */
+    transition: 2s;
+    /* margin-left: 500px; my own line for adjustment */
+}
+
+div:hover{
+    /* transform: rotate(60deg);
+    transform: rotate(-60deg);
+    transform: rotateX(90deg);
+    transform: rotateY(90deg); */
+    /* rotate: 360deg; */
+    /* transform: scaleX(1.5);
+    transform: scaleX(0.1);
+    transform: scaleX(-4);
+    transform: scaleY(2);
+    transform: scaleY(0.5);
+    transform: scaleY(-4);
+    transform: scale(4,2);
+    transform: scale(-4,-2);
+    transform: scale(2);
+    transform: scale(-2); */
+
+    transform: skewX(60deg);
+    transform: skewX(-60deg);
+    transform: skewY(60deg);
+    transform: skewY(-60deg);
+    transform: skew(30deg,45deg);
+}
+

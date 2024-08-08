@@ -1,0 +1,13 @@
+h1{
+    color: red;
+    border-width: 20px;
+    border-color:aqua;
+    border-style:groove;
+    border-top-width: 10px;
+    border-bottom-width: 5px;
+    border-left-width: 20px;
+    border-top-color: yellow;
+    border-right-color: green;
+    border-bottom-color: purple;
+    border-left-color: pink;
+}

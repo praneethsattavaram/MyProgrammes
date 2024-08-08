@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 230px;
+    width: 230px;
+    border: 2px solid black;
+}
+
+#one{
+    background-color: goldenrod;
+    float: none;
+    float: left;
+    float: right;
+    width: 20%;
+}
+
+#two{
+    background-color: hotpink;
+    float: right;
+    width: 60%;
+}
+
+#three{
+    background-color: rgb(16, 13, 14);
+    float: right;
+    width: 20%;
+}

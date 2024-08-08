@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* #relative{
+    height: 250px;
+    width: 250px;
+    background-color: fuchsia;
+    position: relative;
+    top: 200px;
+    left: 500px; */
+/* } */
+
+/* main{
+    height: 220px;
+    width: 220px;
+    border: 2px solid black;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+    /* position: absolute; */
+/* }
+
+#green{
+    background-color: green;
+    position: absolute;
+} */ 
+
+/* #parent{
+    height: 550px;
+    width: 700px;
+    background-color: yellow;
+    margin: 150px;
+    /* position: relative; */
+/* }
+
+#child{
+    height: 150px;
+    width: 150px;
+    background-color: hotpink;
+    position: absolute;
+    top: 10px;
+} */ 
+
+/* #one{
+    height: 800px;
+    background-color: green;
+}
+
+#two{
+    height: 1400px;
+    background-color: aqua;
+}
+
+nav{
+    height: 80px;
+    background-color: brown;
+    position: sticky;
+    top: 0px;
+} */
+
+/* div{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    position: fixed;
+    top: 260px;
+    left: 600px;
+} */
+
+/* aside{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: static;
+    top: 200px;
+} */
+
+img{
+    height: 300px;
+    width: 350px;
+    display: block;
+}
+
+#virat{
+    position: absolute;
+    z-index: 100;
+}
+
+#rohit{
+    position: absolute;
+    z-index: 5000;
+}
+
+#dhoni{
+    position: absolute;
+    z-index: 1000;
+}

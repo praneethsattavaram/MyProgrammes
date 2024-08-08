@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    text-align: center;
+}
+
+body{
+    border: 10px solid fuchsia;
+    height: 727px;
+    background-color: chartreuse;
+    background-image: url("");
+    background-repeat: repeat;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-position: top right;
+    background-position: bottom right;
+    background-position: bottom left;
+    background-position: top center;
+    background-position: bottom center;
+    background-position: left center;
+    background-position: right center;
+    background-position: center center;
+    background-position: top;
+    background-position: bottom;
+    background-position: left;
+    background-position: right;
+    background-position: center;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-size: 700px 700px;
+    background-size: 400px;
+    background: deepskyblue url("https://media.tenor.com/_wSBO6vjA30AAAAM/gudumbaa-gudumba.gif") no-repeat center fixed;
+    background-size: 1800px 800px;
+}

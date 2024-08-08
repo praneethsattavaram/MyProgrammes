@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 728px;
+    border: 5px solid firebrick;
+    /* background: linear-gradient(red, green, blue, yellow, hotpink);
+    background: linear-gradient(to bottom,red, green, blue, yellow, hotpink);
+    background: linear-gradient(to top,red, green, blue, yellow, hotpink);  
+    background: linear-gradient(to left,red, green, blue, yellow, hotpink);
+    background: linear-gradient(to right,red, green, blue, yellow, hotpink);
+    background: linear-gradient(to top right,red, green, blue, yellow, hotpink);
+    background: linear-gradient(to bottom right,red, green, blue, yellow, hotpink);
+    background: linear-gradient(to right, orange 10% 20%, green 25% 50%, blue 50% 80%);
+    background-image: repeating-linear-gradient(to top right, goldenrod 0% 10%, deeppink 10% 20%, purple 20% 30%); */
+    
+    
+    /* background-image: radial-gradient(royalblue,brown,gray);
+    background: radial-gradient(circle, orange, green, skyblue);
+    background: radial-gradient(ellipse, rgb(231, 163, 175), black, yellow); */
+    /* background: radial-gradient(circle, orange 5% 25%, green 25% 50%, skyblue 50% 80%);
+    background: repeating-radial-gradient(red 0% 10%, white 10% 20%); */
+
+    /* div{
+        height: 550px;
+        width: 550px;
+        border: 2px solid black;
+        margin-top: 130px;
+        margin-left: 500px;
+        border-radius: 50%;
+        background: conic-gradient(skyblue,orange,purple);
+        background-image: conic-gradient(green 0% 25%, black 25% 50%, red 50% 70%, yellow 70% 100%);
+        background: repeating-conic-gradient(black 0% 10%, rgb(12, 93, 12) 10% 20%); */
+    /* } */
+}

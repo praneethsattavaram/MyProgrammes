@@ -1,0 +1,34 @@
+img{
+    height:550px;
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 400px;
+    filter: blur(10px);
+    filter: brightness(0);
+    filter: brightness(50px);
+    filter: grayscale(1);
+    filter: opacity(0.2);
+    transition: filter 3s;
+}
+
+img:hover{
+    filter: blur(0.5);
+    filter: brightness(1);
+    filter: brightness(100%);
+    filter: grayscale(0);
+    filter: opacity(1);
+    border-radius: 20%;
+}
+
+img{
+    height: 700px;
+    width: 700px;
+}
+
+#one{
+    box-shadow: 20px 20px 10px red;
+}
+
+#two{
+    filter:drop-shadow(40px 40px 30px red);
+}

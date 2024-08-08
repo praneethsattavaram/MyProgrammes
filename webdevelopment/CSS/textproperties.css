@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    color: rgba(99, 3, 3, 0.922);
+    /* text-align: left;
+    text-align: right;
+    text-align: end; */
+    text-decoration-style: wavy;
+    text-decoration: 5px line-through green dashed;
+}
+
+p{
+    text-align-last:left;
+    text-align: justify;
+    /* text-decoration-line: overline;
+    text-decoration-line: underline;
+    text-decoration-line: line-through;
+    /* text-decoration-line: none; */
+
+    text-decoration-color: rgb(57, 147, 66);
+
+    text-decoration-thickness: 3px;
+
+    text-decoration-style:solid;
+    text-decoration-style: dotted;
+    text-decoration-style: dashed;
+    text-decoration-style: double;
+    text-decoration-style: wavy; 
+
+    /* text-decoration-line: none; */
+
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+
+    text-indent: 5px;
+    text-indent: 500px;
+
+    /* letter-spacing: 1px;
+    letter-spacing: 5px; */
+
+    word-spacing: 50px;
+}
