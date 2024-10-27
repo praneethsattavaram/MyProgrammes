@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+button{
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+button:hover{
+    height: 100px;
+    width: 250px;
+    cursor: crosshair;
+    background-color: antiquewhite;
+    color: blue;
+    border-radius: 50px;
+}

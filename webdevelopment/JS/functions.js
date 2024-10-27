@@ -104,7 +104,7 @@ let greet = () => {
 }
 
 //EXAMPLE3
-() // SyntaxError: Unexpected token ‘}’
+// () // SyntaxError: Unexpected token ‘}’
 (() => {
 	console.log("Hello")
 })
